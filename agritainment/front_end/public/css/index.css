@@ -1,0 +1,548 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;padding:0;margin:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;}
+.txt-rt{text-align:right;}
+.txt-lt{text-align:left;}
+.txt-center{text-align:center;}
+.float-rt{float:right;}
+.float-lt{float:left;}
+.clear{clear:both;}
+.pos-relative{position:relative;}
+.pos-absolute{position:absolute;}
+.vertical-base{vertical-align:baseline;}
+.vertical-top{vertical-align:top;}
+.underline{	padding-bottom:3px;	border-bottom: 1px solid #eee;}
+nav.vertical ul li{display:block;}
+nav.horizontal ul li{display: inline-block;}
+img{max-width:100%;}
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, a, fieldset, input, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    word-break: break-all;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+body a {
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+    text-decoration: none;
+}
+
+::-webkit-input-placeholder {
+    color: #CCC;
+}
+
+:-moz-placeholder {
+    color: #CCC;
+}
+
+::-moz-placeholder {
+    color: #CCC;
+}
+
+:-ms-input-placeholder {
+    color: #CCC;
+}
+
+/*头部开始*/
+.web-top {
+    float: left;
+    width: 100%;
+    min-width: 1200px;
+    height: 35px;
+    border-bottom: 1px solid #ededed;
+    background: #f9f7f6;
+}
+
+.wm-1200 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.notice-txt {
+    float: left;
+    color: #666;
+    width: 450px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.top-login {
+    float: right;
+    max-width: 580px;
+}
+
+.top-login a, .top-login dl.dh dt {
+    float: left;
+    color: #333;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.top-login a:hover, .top-login dl.dh dt:hover {
+    color: #f80;
+}
+
+/*头部结束*/
+
+/*搜索框开始*/
+
+.st-header {
+    float: left;
+    width: 100%;
+    min-width: 1200px;
+    padding: 22px 0 23px;
+    background: #fff;
+}
+
+.st-header .wm-1200 {
+    height: 85px;
+}
+
+.st-link-way {
+    float: right;
+    height: 46px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -23px;
+}
+
+.link-way-ico {
+    float: left;
+}
+
+.link-way-txt {
+    float: left;
+    display: table;
+    height: 46px;
+    padding-left: 10px;
+}
+
+.st-link-way em {
+    color: #0082dd;
+    display: table-cell;
+    max-width: 200px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-style: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Arial, "Microsoft YaHei", Helvetica, sans-serif;
+}
+
+.st-top-search {
+    width: 451px;
+    height: 34px;
+    position: absolute;
+    left: 470px;
+    top: 50%;
+    margin-top: -18px;
+    border: 1px solid #00b7ee;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.st-top-search .st-txt {
+    float: left;
+    /*width: 270px;*/
+    width: 369px;
+    height: 32px;
+    line-height: 34px;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+.st-top-search .st-btn {
+    float: right;
+    color: #fff;
+    width: 80px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    background: #00b7ee;
+}
+
+/*搜索框结束*/
+
+/*导航开始*/
+.st-nav {
+    float: left;
+    width: 100%;
+    min-width: 1200px;
+    height: 45px;
+    background: #00b7ee;
+}
+
+.st-global .global-bt {
+    float: left;
+    color: #fff;
+    width: 220px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    text-align: center;
+    background: #009fde;
+}
+
+.st-global .global-list {
+    float: left;
+    position: relative;
+    z-index: 99999;
+    width: 220px;
+    height: 420px;
+    margin-top: 45px;
+    margin-left: -220px;
+    background: #fff;
+}
+
+.gl-list-tabbox {
+    float: left;
+    width: 220px;
+    height: 69px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.gl-list-tabbox h3 {
+    float: left;
+    width: 196px;
+    height: 69px;
+    padding: 0 10px;
+    position: relative;
+    border-left: 3px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.gl-list-tabbox h3 strong {
+    float: left;
+    width: 196px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.gl-list-tabbox h3 strong a {
+    color: #333;
+    float: left;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.gl-list-tabbox h3 strong a:hover, .gl-list-tabbox h3 p a:hover {
+    color: #f60;
+}
+
+.gl-list-tabbox h3 strong em, .gl-list-tabbox h3 strong em img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.gl-list-tabbox h3 p {
+    float: left;
+    width: 175px;
+    height: 20px;
+    padding-left: 21px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.gl-list-tabbox h3 p a {
+    float: left;
+    color: #8c9093;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+    font-size : 12px;
+}
+
+.gl-list-tabbox h3 .arrow-rig {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    display: block;
+    width: 6px;
+    height: 11px;
+    margin-top: -5px;
+    background: url(../images/arrow-right-ico2.png) left no-repeat;
+}
+
+.tabcon-item {
+    display: none;
+    position: absolute;
+    left: 220px;
+    top: 0;
+    z-index: 999;
+    width: 979px;
+    min-height: 418px;
+    border: 1px solid #3e62ad;
+    background: #fff;
+    z-index: -1;
+}
+
+.gl-list-tabbox:hover .tabcon-item {
+    display: block;
+}
+
+.gl-list-tabbox:hover {
+    border: 1px solid #3e62ad;
+    border-right: 0;
+}
+
+.tabcon-item .item-list {
+    float: left;
+    width: 980px;
+}
+
+.tabcon-item .item-list dl {
+    float: left;
+    width: 450px;
+    padding: 3px 20px;
+}
+
+.tabcon-item .item-list dl dt, .tabcon-item .item-list dl dt a {
+    float: left;
+    color: #333;
+    width: 450px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tabcon-item .item-list dl dt a:hover, .tabcon-item .item-list dl dd a:hover {
+    color: #f60;
+}
+
+.tabcon-item .item-list dl dd {
+    float: left;
+    width: 450px;
+}
+
+.clear {
+    clear: both;
+}
+
+.tabcon-item .ad-box {
+    float: left;
+    width: 980px;
+    height: 110px;
+    overflow: hidden;
+}
+
+/*导航结束*/
+
+/*轮播图开始*/
+
+.st-focus-banners {
+    float: left;
+    width: 100%;
+    min-width: 1200px;
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+
+.st-focus-banners ul{
+    position: relative;
+    z-index: 1;
+}
+
+.st-focus-banners ul li{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+.st-focus-banners li img{
+   width: 1920px;
+}
+
+.st-focus-banners ol{
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    bottom: 10px;
+}
+.st-focus-banners ol li{
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border: 1px solid #cccccc;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    margin-left: 10px;
+    color: #cccccc;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.st-focus-banners ol .current{
+    width: 30px;
+    height: 30px;
+    color: #f60;
+    border: 1px solid #ff6600;
+    line-height: 30px;
+    margin-top: 0;
+}
+/*轮播图结束*/
+
+/*热门农家乐开始*/
+
+.st-slideTab {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    height: 740px;
+}
+
+.st-tabnav {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.st-slideTab .st-tabnav h3 {
+    float: left;
+    color: #3e62ad;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav-header {
+    float: left;
+    width: 1200px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.fh5co-listing {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    /*margin-top: -5em;*/
+    padding-bottom: 5em;
+}
+.fh5co-listing .fh5co-item-wrap {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.fh5co-listing .fh5co-item-wrap .fh5co-listing-item {
+    background: #fff;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.fh5co-listing .fh5co-item-wrap .fh5co-listing-item:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 12;
+    -webkit-box-shadow: inset 0px -126px 211px -69px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px -126px 211px -69px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px -126px 211px -69px rgba(0, 0, 0, 0.75);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.fh5co-listing .fh5co-item-wrap .fh5co-listing-item img {
+    position: relative;
+    z-index: 10;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.fh5co-listing .fh5co-item-wrap .fh5co-listing-item .fh5co-listing-copy {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    z-index: 15;
+    font-size: 16px;
+}
+.fh5co-listing .fh5co-item-wrap .fh5co-listing-item .fh5co-listing-copy h2 {
+    color: #fff;
+    font-size: 26px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+.fh5co-listing .fh5co-item-wrap .fh5co-listing-item .fh5co-listing-copy .icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    line-height: 32px;
+    font-size: 16px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+.fh5co-listing .fh5co-item-wrap .fh5co-listing-item .fh5co-listing-copy .icon i {
+    color: #fff;
+}
+.fh5co-listing .fh5co-item-wrap .fh5co-listing-item:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.fh5co-listing .fh5co-item-wrap .fh5co-listing-item:hover:after {
+    -webkit-box-shadow: inset 0px -126px 311px -69px rgba(0, 0, 0, 0.95);
+    -moz-box-shadow: inset 0px -126px 311px -69px rgba(0, 0, 0, 0.95);
+    box-shadow: inset 0px -126px 311px -69px rgba(0, 0, 0, 0.95);
+}
+.fh5co-listing .fh5co-item-wrap .fh5co-listing-item:hover .fh5co-listing-copy h2 {
+    margin-left: 10px;
+}
+.fh5co-listing .fh5co-item-wrap .fh5co-listing-item:hover .fh5co-listing-copy .icon {
+    margin-right: 10px;
+}
+
+
+/*热门农家乐结束*/
