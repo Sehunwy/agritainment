@@ -1409,15 +1409,15 @@ textarea {
   line-height: inherit;
 }
 
-a {
+.fh5co-listing-item a {
   color: #337ab7;
   text-decoration: none;
 }
-a:hover, a:focus {
+.fh5co-listing-item a:hover, .fh5co-listing-item a:focus {
   color: #23527c;
   text-decoration: underline;
 }
-a:focus {
+.fh5co-listing-item a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
@@ -1435,6 +1435,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-bottom: 10px;
 }
 
 .img-rounded {

@@ -309,6 +309,8 @@ body a {
 .gl-list-tabbox:hover {
     border: 1px solid #3e62ad;
     border-right: 0;
+    width: 221px;
+    background-color: white;
 }
 
 .tabcon-item .item-list {
@@ -425,7 +427,7 @@ body a {
     margin: 0 auto;
 }
 
-.st-slideTab .st-tabnav h3 {
+.st-slideTab .st-tabnav .hot {
     float: left;
     color: #3e62ad;
     width: 180px;
@@ -543,6 +545,104 @@ body a {
 .fh5co-listing .fh5co-item-wrap .fh5co-listing-item:hover .fh5co-listing-copy .icon {
     margin-right: 10px;
 }
-
-
 /*热门农家乐结束*/
+
+/*特色农家乐开始*/
+.fh5co-section {
+    padding: 5em 0;
+}
+@media screen and (max-width: 768px) {
+    .fh5co-section {
+        padding: 3em 0;
+    }
+}
+
+.fh5co-news ul {
+    padding: 0;
+    margin: 0;
+}
+.fh5co-news ul li {
+    padding: 0;
+    margin-bottom: 167px;
+    /*margin: 0;*/
+    list-style: none;
+}
+.fh5co-news ul li a {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
+.fh5co-news ul li a .fh5co-date {
+    font-family: Arial, sans-serif;
+    color: #000;
+    /*color: rgba(255, 255, 255, 0.3);*/
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .08em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.fh5co-news ul li a:hover {
+    background: #000;
+    padding-left: 30px;
+}
+
+.fh5co-news ul li a:hover .fh5co-date{
+    color: #ffffff;
+}
+
+.fh5co-news ul li a h3 {
+    margin-bottom: 10px;
+    font-size: 20px !important;
+    color: #666 !important;
+}
+
+p, ul, ol {
+    margin-bottom: 1.5em;
+    font-size: 16px;
+    color: #848484;
+    font-family: "Raleway", Arial, sans-serif;
+}
+p {
+    margin: 0 0 10px;
+}
+
+.fh5co-section .fh5co-news .h3 {
+    color: #5a5a5a;
+    font-family: "Raleway", Arial, sans-serif;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 24px;
+}
+/*特色农家乐结束*/
+
+/*底部开始*/
+.copy-right {
+    padding: 1.5em 0;
+}
+
+.copy-right p {
+    color: #645d5d;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.copy-right p a {
+    color: #645d5d;
+    font-size: 16px;
+}
+
+.copy-right p a:hover {
+    color: rgb(192, 58, 58);
+    text-decoration: underline;
+}
+/*底部结束*/
