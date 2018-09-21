@@ -19,8 +19,10 @@ var urlencodedParser=bodyParser.urlencoded({ extended: false });
 app.use(urlencodedParser);
 
 //登录注册
-var loginController = require('./controllers/LoginController');
-app.get('/login', loginController.login);
+var userController = require('./controllers/UserController');
+app.get('/login', userController.login);
+app.post('/register', userController.register);
+
 
 //首页
 var indexController = require('./controllers/IndexController');
