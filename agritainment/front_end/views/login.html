@@ -17,9 +17,6 @@
 	<!-- //Meta-Tags -->
 
 	<!-- Style --> <link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
-
-
-
 </head>
 <!-- //Head -->
 
@@ -33,13 +30,11 @@
 	<div class="login w3layouts agileits">
 		<h2>登 录</h2>
 		<form action="#" method="post">
-			<input type="text" Name="Userame" placeholder="电话号码 / 邮箱" required="">
-			<input type="password" Name="Password" placeholder="密码" required="">
+			<input type="text" id="LoginName" Name="Userame" placeholder="电话号码 / 邮箱" required="">
+			<input type="password" id="LoginPass" Name="Password" placeholder="密码" required="">
 		</form>
 		<div class="send-button w3layouts agileits">
-			<form>
-				<input type="submit" value="登 录">
-			</form>
+			<input onclick="login()" type="submit" value="登 录">
 		</div>
 		<a href="#">忘记密码?</a>
 		<div class="social-icons w3layouts agileits">
@@ -99,11 +94,34 @@
                 if(data.result==false) {
                     alert("注册失败");
                     location.href="login";
-				}
-				else  {
+                }
+                else  {
                     alert("注册成功");
                     location.href="login";
-				}
+                }
+            }
+        });
+    }
+
+    //登录
+    function login() {
+        var user = document.getElementById('LoginName').value;
+        var passwd = document.getElementById('LoginPass').value;
+        var pass = hex_md5(passwd);
+        var url = "http://localhost:8888/login_in";
+        $.ajax({
+            url: url,
+            type: "POST",
+            data: {user: user, passwd: pass},
+            success: function (register) {
+                var data = JSON.parse(register);
+                if(data.result==false) {
+                    alert("登录失败");
+                    location.href="login";
+                }
+                else  {
+                    location.href="index";
+                }
             }
         });
     }

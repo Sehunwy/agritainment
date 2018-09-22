@@ -32,6 +32,20 @@ function UserDao() {
         connection.end();
 
     }
+
+    //查询用户
+    this.queryUser = function (pcName,call) {
+        var sql = "select * from pcuser where pcName='" +pcName+ "'";
+        connection.query(sql, function (err, result) {
+            if (err) {
+                console.log('[INSERT ERROR] - ', err.message);
+                return;
+            }
+            call(result);
+        });
+        //连接结束
+        connection.end();
+    }
 }
 
 module.exports = UserDao;

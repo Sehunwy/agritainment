@@ -21,6 +21,7 @@ app.use(urlencodedParser);
 //登录注册
 var userController = require('./controllers/UserController');
 app.get('/login', userController.login);
+app.post('/login_in', userController.login_in);
 app.post('/register', userController.register);
 
 
