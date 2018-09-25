@@ -418,7 +418,7 @@ body a {
     float: left;
     width: 100%;
     margin-top: 20px;
-    height: 740px;
+    height: 560px;
 }
 
 .st-tabnav {
@@ -548,6 +548,10 @@ body a {
 /*热门农家乐结束*/
 
 /*特色农家乐开始*/
+.heg {
+    height: 1860px;
+}
+
 .fh5co-section {
     padding: 5em 0;
 }
@@ -563,7 +567,7 @@ body a {
 }
 .fh5co-news ul li {
     padding: 0;
-    margin-bottom: 167px;
+    margin-bottom: 181px;
     /*margin: 0;*/
     list-style: none;
 }

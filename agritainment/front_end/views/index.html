@@ -74,624 +74,40 @@
         <div class="st-global">
             <div class="global-bt">农家乐导航</div>
             <div class="global-list">
+                <%province.forEach(function (provinces) {%>
                 <div class="gl-list-tabbox">
                     <h3 class="">
                         <strong>
                             <em>
                                 <img src="http://www.chengdukanghui.com/res/images/usernav.png">
                             </em>
-                            <a href="http://www.chengdukanghui.com/lines/taiguo/" target="_blank">泰国 普吉 清迈</a>
+                            <a href="http://www.chengdukanghui.com/lines/taiguo/" target="_blank"><%= provinces.province %></a>
                         </strong>
                         <p>
-                            <a href="/lines/mangu/" target="_blank">曼谷</a>
-                            <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                            <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                            <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                            <a href="/lines/qingmai/" target="_blank">清迈</a>
+                            <% city.forEach(function (citys) {
+                            if(provinces.provinceid==citys.provinceid) {%>
+                            <a href="/lines/mangu/" target="_blank"><%=citys.city%></a>
+                            <%}})%>
                         </p>
                         <i class="arrow-rig"></i>
                     </h3>
                     <div class="tabcon-item" >
                         <div class="item-list">
+                            <% city.forEach(function (citys) {
+                            if(provinces.provinceid==citys.provinceid) {%>
                             <dl>
                                 <dt>
-                                    <a href="/lines/mangu/" target="_blank">曼谷</a>
+                                    <a href="/lines/mangu/" target="_blank"><%=citys.city%></a>
                                 </dt>
                                 <dd>
                                 </dd>
                             </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                                </dt>
-                                <dd>
-                                </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/qingmai/" target="_blank">清迈</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href=" /lines/qinglai/" target="_blank">清莱</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/jiami/" target="_blank">甲米</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="http://www.chengdukanghui.com/lines/similan" target="_blank">斯米兰</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/batiya/" target="_blank">芭提雅</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/huaxin/" target="_blank">华欣</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/shameidao/" target="_blank">沙美岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/libeidao/" target="_blank">丽贝岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/baixian/" target="_blank">拜县</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
+                            <%}})%>
                         </div>
                         <div class="ad-box">   </div>
                     </div>
                 </div>
-                <div class="gl-list-tabbox">
-                    <h3 class="">
-                        <strong>
-                            <em>
-                                <img src="http://www.chengdukanghui.com/res/images/usernav.png">
-                            </em>
-                            <a href="http://www.chengdukanghui.com/lines/taiguo/" target="_blank">泰国 普吉 清迈</a>
-                        </strong>
-                        <p>
-                            <a href="/lines/mangu/" target="_blank">曼谷</a>
-                            <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                            <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                            <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                            <a href="/lines/qingmai/" target="_blank">清迈</a>
-                        </p>
-                        <i class="arrow-rig"></i>
-                    </h3>
-                    <div class="tabcon-item">
-                        <div class="item-list">
-                            <dl>
-                                <dt>
-                                    <a href="/lines/mangu/" target="_blank">曼谷</a>
-                                </dt>
-                                <dd>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                                </dt>
-                                <dd>
-                                </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/qingmai/" target="_blank">清迈</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href=" /lines/qinglai/" target="_blank">清莱</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/jiami/" target="_blank">甲米</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="http://www.chengdukanghui.com/lines/similan" target="_blank">斯米兰</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/batiya/" target="_blank">芭提雅</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/huaxin/" target="_blank">华欣</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/shameidao/" target="_blank">沙美岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/libeidao/" target="_blank">丽贝岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/baixian/" target="_blank">拜县</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                        </div>
-                        <div class="ad-box">   </div>
-                    </div>
-                </div>
-                <div class="gl-list-tabbox">
-                    <h3 class="">
-                        <strong>
-                            <em>
-                                <img src="http://www.chengdukanghui.com/res/images/usernav.png">
-                            </em>
-                            <a href="http://www.chengdukanghui.com/lines/taiguo/" target="_blank">泰国 普吉 清迈</a>
-                        </strong>
-                        <p>
-                            <a href="/lines/mangu/" target="_blank">曼谷</a>
-                            <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                            <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                            <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                            <a href="/lines/qingmai/" target="_blank">清迈</a>
-                        </p>
-                        <i class="arrow-rig"></i>
-                    </h3>
-                    <div class="tabcon-item">
-                        <div class="item-list">
-                            <dl>
-                                <dt>
-                                    <a href="/lines/mangu/" target="_blank">曼谷</a>
-                                </dt>
-                                <dd>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                                </dt>
-                                <dd>
-                                </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/qingmai/" target="_blank">清迈</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href=" /lines/qinglai/" target="_blank">清莱</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/jiami/" target="_blank">甲米</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="http://www.chengdukanghui.com/lines/similan" target="_blank">斯米兰</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/batiya/" target="_blank">芭提雅</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/huaxin/" target="_blank">华欣</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/shameidao/" target="_blank">沙美岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/libeidao/" target="_blank">丽贝岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/baixian/" target="_blank">拜县</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                        </div>
-                        <div class="ad-box">   </div>
-                    </div>
-                </div>
-                <div class="gl-list-tabbox">
-                    <h3 class="">
-                        <strong>
-                            <em>
-                                <img src="http://www.chengdukanghui.com/res/images/usernav.png">
-                            </em>
-                            <a href="http://www.chengdukanghui.com/lines/taiguo/" target="_blank">泰国 普吉 清迈</a>
-                        </strong>
-                        <p>
-                            <a href="/lines/mangu/" target="_blank">曼谷</a>
-                            <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                            <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                            <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                            <a href="/lines/qingmai/" target="_blank">清迈</a>
-                        </p>
-                        <i class="arrow-rig"></i>
-                    </h3>
-                    <div class="tabcon-item">
-                        <div class="item-list">
-                            <dl>
-                                <dt>
-                                    <a href="/lines/mangu/" target="_blank">曼谷</a>
-                                </dt>
-                                <dd>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                                </dt>
-                                <dd>
-                                </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/qingmai/" target="_blank">清迈</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href=" /lines/qinglai/" target="_blank">清莱</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/jiami/" target="_blank">甲米</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="http://www.chengdukanghui.com/lines/similan" target="_blank">斯米兰</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/batiya/" target="_blank">芭提雅</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/huaxin/" target="_blank">华欣</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/shameidao/" target="_blank">沙美岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/libeidao/" target="_blank">丽贝岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/baixian/" target="_blank">拜县</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                        </div>
-                        <div class="ad-box">   </div>
-                    </div>
-                </div>
-                <div class="gl-list-tabbox">
-                    <h3 class="">
-                        <strong>
-                            <em>
-                                <img src="http://www.chengdukanghui.com/res/images/usernav.png">
-                            </em>
-                            <a href="http://www.chengdukanghui.com/lines/taiguo/" target="_blank">泰国 普吉 清迈</a>
-                        </strong>
-                        <p>
-                            <a href="/lines/mangu/" target="_blank">曼谷</a>
-                            <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                            <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                            <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                            <a href="/lines/qingmai/" target="_blank">清迈</a>
-                        </p>
-                        <i class="arrow-rig"></i>
-                    </h3>
-                    <div class="tabcon-item">
-                        <div class="item-list">
-                            <dl>
-                                <dt>
-                                    <a href="/lines/mangu/" target="_blank">曼谷</a>
-                                </dt>
-                                <dd>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                                </dt>
-                                <dd>
-                                </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/qingmai/" target="_blank">清迈</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href=" /lines/qinglai/" target="_blank">清莱</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/jiami/" target="_blank">甲米</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="http://www.chengdukanghui.com/lines/similan" target="_blank">斯米兰</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/batiya/" target="_blank">芭提雅</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/huaxin/" target="_blank">华欣</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/shameidao/" target="_blank">沙美岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/libeidao/" target="_blank">丽贝岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/baixian/" target="_blank">拜县</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                        </div>
-                        <div class="ad-box">   </div>
-                    </div>
-                </div>
-                <div class="gl-list-tabbox">
-                    <h3 class="">
-                        <strong>
-                            <em>
-                                <img src="http://www.chengdukanghui.com/res/images/usernav.png">
-                            </em>
-                            <a href="http://www.chengdukanghui.com/lines/taiguo/" target="_blank">泰国 普吉 清迈</a>
-                        </strong>
-                        <p>
-                            <a href="/lines/mangu/" target="_blank">曼谷</a>
-                            <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                            <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                            <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                            <a href="/lines/qingmai/" target="_blank">清迈</a>
-                        </p>
-                        <i class="arrow-rig"></i>
-                    </h3>
-                    <div class="tabcon-item">
-                        <div class="item-list">
-                            <dl>
-                                <dt>
-                                    <a href="/lines/mangu/" target="_blank">曼谷</a>
-                                </dt>
-                                <dd>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/pujidao/" target="_blank">普吉岛</a>
-                                </dt>
-                                <dd>
-                                </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/xiangdao/" target="_blank">象岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/sumeidao/" target="_blank">苏梅岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/qingmai/" target="_blank">清迈</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href=" /lines/qinglai/" target="_blank">清莱</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/jiami/" target="_blank">甲米</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="http://www.chengdukanghui.com/lines/similan" target="_blank">斯米兰</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/batiya/" target="_blank">芭提雅</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/huaxin/" target="_blank">华欣</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/shameidao/" target="_blank">沙美岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="/lines/libeidao/" target="_blank">丽贝岛</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                            <dl class="clear">
-                                <dt>
-                                    <a href="/lines/baixian/" target="_blank">拜县</a>
-                                </dt>
-                                <dd>   </dd>
-                            </dl>
-                        </div>
-                        <div class="ad-box">   </div>
-                    </div>
-                </div>
+                <%  });%>
             </div>
         </div>
     </div>
@@ -701,19 +117,18 @@
 <!--轮播图开始-->
 <div class="st-focus-banners">
     <ul >
-        <li><img src="../images/img-1.jpg"></li>
-        <li><img src="../images/img-2.jpg"></li>
-        <li><img src="../images/img-3.jpg"></li>
-        <li><img src="../images/img-4.jpg"></li>
-        <li><img src="../images/img-5.jpg"></li>
+        <%farm.forEach(function (farms) {%>
+        <li><img src=<%=farms.pic01%>>
+            <%})%>
     </ul>
     <ol>
         <!--里面记得写数字，不然就只有空的方块了-->
-        <li>1</li>
+        <li class="current">1</li>
         <li>2</li>
         <li>3</li>
         <li>4</li>
-        <li class="current">5</li>
+        <li>5</li>
+        <li>6</li>
     </ol>
 </div>
 <!--轮播图结束-->
@@ -727,77 +142,19 @@
         <div class="fh5co-listing">
             <div class="container">
                 <div class="row">
+                    <%farm.forEach(function (farms) {%>
                     <div class="col-md-4 col-sm-4 fh5co-item-wrap">
-                        <a class="fh5co-listing-item">
-                            <img src="images/img-1.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
+                        <a class="fh5co-listing-item" onclick="hrefGallery(<%=farms.farmId%>)">
+                            <img src=<%=farms.pic01%> alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
                             <div class="fh5co-listing-copy">
-                                <h2>Paris</h2>
+                                <h2><%=farms.area%></h2>
                                 <span class="icon">
 									<i class="icon-chevron-right"></i>
 								</span>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-4 fh5co-item-wrap">
-                        <a class="fh5co-listing-item">
-                            <img src="images/img-2.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
-                            <div class="fh5co-listing-copy">
-                                <h2>New York</h2>
-                                <span class="icon">
-									<i class="icon-chevron-right"></i>
-								</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 fh5co-item-wrap">
-                        <a class="fh5co-listing-item">
-                            <img src="images/img-3.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
-                            <div class="fh5co-listing-copy">
-                                <h2>London</h2>
-                                <span class="icon">
-									<i class="icon-chevron-right"></i>
-								</span>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- END 3 row -->
-
-                    <div class="col-md-4 col-sm-4 fh5co-item-wrap">
-                        <a class="fh5co-listing-item">
-                            <img src="images/img-4.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
-                            <div class="fh5co-listing-copy">
-                                <h2>Amsterdam</h2>
-                                <span class="icon">
-									<i class="icon-chevron-right"></i>
-								</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 fh5co-item-wrap">
-                        <a class="fh5co-listing-item">
-                            <img src="images/img-5.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
-                            <div class="fh5co-listing-copy">
-                                <h2>Australia</h2>
-                                <span class="icon">
-									<i class="icon-chevron-right"></i>
-								</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 fh5co-item-wrap">
-                        <a class="fh5co-listing-item">
-                            <img src="images/img-6.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
-                            <div class="fh5co-listing-copy">
-                                <h2>Japan</h2>
-                                <span class="icon">
-									<i class="icon-chevron-right"></i>
-								</span>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- END 3 row -->
-
-
+                    <%})%>
                 </div>
             </div>
         </div>
@@ -806,7 +163,7 @@
 <!--热门农家乐结束-->
 
 <!--特色农家乐开始-->
-<div class="st-slideTab">
+<div class="st-slideTab heg">
     <div class="st-tabnav">
         <div class="nav-header">
             <h3 class="hot">特色农家乐</h3>
@@ -816,25 +173,29 @@
                 <div class="row">
                     <div class="col-md-6 fh5co-news">
                         <ul>
+                            <% farm.forEach(function (farms){ %>
                             <li>
                                 <a href="#">
-                                    <span class="fh5co-date">Sep. 10, 2016</span>
-                                    <h3>Newly done Bridge of London</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit!</p>
+                                    <span class="fh5co-date">特色农家乐</span>
+                                    <h3>简短介绍</h3>
+                                    <p><%=farms.shortInfo%></p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fh5co-date">Sep. 10, 2016</span>
-                                    <h3>Newly done Bridge of London</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit!</p>
-                                </a>
-                            </li>
+                            <%})%>
+                            <!--<li>-->
+                                <!--<a href="#">-->
+                                    <!--<span class="fh5co-date">Sep. 10, 2016</span>-->
+                                    <!--<h3>Newly done Bridge of London</h3>-->
+                                    <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit!</p>-->
+                                <!--</a>-->
+                            <!--</li>-->
                         </ul>
                     </div>
                     <div class="col-md-6 fh5co-testimonial">
-                        <img src="images/cover_bg_1.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive mb20">
-                        <img src="images/cover_bg_1.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
+                        <% farm.forEach(function (farms){ %>
+                            <img src=<%=farms.pic01%> style="width: 557px;height: 285px" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive mb20">
+                        <%})%>
+                        <!--<img src="images/cover_bg_1.jpg" style="width: 557px;height: 285px" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">-->
                     </div>
                 </div>
             </div>
@@ -850,4 +211,19 @@
     </div>
 </div>
 <!--底部结束-->
+<script>
+    function hrefGallery(id) {
+        console.log(id);
+        var xmlRequest = new XMLHttpRequest();
+        xmlRequest.open('get','http://localhost:8888/gallery?id='+id,true);
+        xmlRequest.send();
+        // xmlRequest.onreadystatechange=function () {
+        //     if (xmlRequest.readyState == 4 && xmlRequest.status == 200) {
+        //         var data = JSON.parse(xmlRequest.responseText);
+        //
+        //
+        //     }
+        // }
+    }
+</script>
 </body>

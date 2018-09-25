@@ -29,6 +29,11 @@ app.post('/register', userController.register);
 var indexController = require('./controllers/IndexController');
 app.get('/index', indexController.index);
 
+//详情
+var itemsController = require('./controllers/ItemsController');
+app.get('/gallery', itemsController.gallery);
+// app.post('/galleryController', itemsController.galleryController);
+
 
 
 app.listen(8888);
