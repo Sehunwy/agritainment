@@ -43,8 +43,7 @@
         </div>
         <div class="top-login">
             <span id="loginstatus">
-                <a class="dl" href="login">登录</a>
-                <a class="zc" href="login">免费注册</a>
+
             </span>
         </div>
     </div>
@@ -55,8 +54,14 @@
 <div class="st-header">
     <div class="wm-1200">
         <div class="st-top-search">
-            <input type="text" id="st-top-search" class="st-txt searchkeyword" placeholder="四川农家乐">
-            <input type="button" value="搜索" class="st-btn">
+            <input type="text" id="st-top-search" class="st-txt searchkeyword" placeholder="请输入地区">
+            <input type="button" value="搜索" class="st-btn" onclick="search()">
+            <!--<a href=""></a>-->
+            <select class="sele" id="selected">
+                <option value ="province">省</option>
+                <option value ="city">市</option>
+            </select>
+
         </div>
         <div class="st-link-way">
             <img class="link-way-ico" src="../images/24hours-ico.png" width="45" height="45">
@@ -81,12 +86,12 @@
                             <em>
                                 <img src="http://www.chengdukanghui.com/res/images/usernav.png">
                             </em>
-                            <a href="http://www.chengdukanghui.com/lines/taiguo/" target="_blank"><%= provinces.province %></a>
+                            <a href="http://localhost:8888/listing?id=<%=provinces.provinceid%>"><%= provinces.province %></a>
                         </strong>
                         <p>
                             <% city.forEach(function (citys) {
                             if(provinces.provinceid==citys.provinceid) {%>
-                            <a href="/lines/mangu/" target="_blank"><%=citys.city%></a>
+                            <a href="http://localhost:8888/listing_city?id=<%=citys.cityid%>"><%=citys.city%></a>
                             <%}})%>
                         </p>
                         <i class="arrow-rig"></i>
@@ -97,7 +102,7 @@
                             if(provinces.provinceid==citys.provinceid) {%>
                             <dl>
                                 <dt>
-                                    <a href="/lines/mangu/" target="_blank"><%=citys.city%></a>
+                                    <a href="http://localhost:8888/listing_city?id=<%=citys.cityid%>"><%=citys.city%></a>
                                 </dt>
                                 <dd>
                                 </dd>
@@ -144,7 +149,7 @@
                 <div class="row">
                     <%farm.forEach(function (farms) {%>
                     <div class="col-md-4 col-sm-4 fh5co-item-wrap">
-                        <a class="fh5co-listing-item" onclick="hrefGallery(<%=farms.farmId%>)">
+                        <a class="fh5co-listing-item" href="http://localhost:8888/gallery?id=<%=farms.farmId%>">
                             <img src=<%=farms.pic01%> alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
                             <div class="fh5co-listing-copy">
                                 <h2><%=farms.area%></h2>
@@ -173,29 +178,21 @@
                 <div class="row">
                     <div class="col-md-6 fh5co-news">
                         <ul>
-                            <% farm.forEach(function (farms){ %>
+                            <% for(var i=0;i<3;i++) {%>
                             <li>
-                                <a href="#">
+                                <a href="http://localhost:8888/gallery?id=<%=farm[i].farmId%>">
                                     <span class="fh5co-date">特色农家乐</span>
                                     <h3>简短介绍</h3>
-                                    <p><%=farms.shortInfo%></p>
+                                    <p><%=farm[i].shortInfo%></p>
                                 </a>
                             </li>
-                            <%})%>
-                            <!--<li>-->
-                                <!--<a href="#">-->
-                                    <!--<span class="fh5co-date">Sep. 10, 2016</span>-->
-                                    <!--<h3>Newly done Bridge of London</h3>-->
-                                    <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit!</p>-->
-                                <!--</a>-->
-                            <!--</li>-->
+                            <%}%>
                         </ul>
                     </div>
                     <div class="col-md-6 fh5co-testimonial">
-                        <% farm.forEach(function (farms){ %>
-                            <img src=<%=farms.pic01%> style="width: 557px;height: 285px" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive mb20">
-                        <%})%>
-                        <!--<img src="images/cover_bg_1.jpg" style="width: 557px;height: 285px" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">-->
+                        <% for(var i=0;i<3;i++){ %>
+                            <img src=<%=farm[i].pic01%> style="width: 557px;height: 285px" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive mb20">
+                        <%}%>
                     </div>
                 </div>
             </div>
@@ -211,19 +208,90 @@
     </div>
 </div>
 <!--底部结束-->
-<script>
-    function hrefGallery(id) {
-        console.log(id);
-        var xmlRequest = new XMLHttpRequest();
-        xmlRequest.open('get','http://localhost:8888/gallery?id='+id,true);
-        xmlRequest.send();
-        // xmlRequest.onreadystatechange=function () {
-        //     if (xmlRequest.readyState == 4 && xmlRequest.status == 200) {
-        //         var data = JSON.parse(xmlRequest.responseText);
-        //
-        //
-        //     }
-        // }
-    }
-</script>
 </body>
+<script>
+    // function user() {
+    var loginstatus = document.getElementById('loginstatus');
+    var strCookie=document.cookie;
+    var arrCookie=strCookie.split("; ");
+    var userId;
+    for(var i=0;i<arrCookie.length;i++){
+        var arr=arrCookie[i].split("=");
+        if("username"==arr[0]){
+            userId=arr[1];
+            break;
+        }
+    }
+    console.log("user "+userId);
+    if(userId==undefined) {
+        loginstatus.innerHTML = '<a class="dl" href="login">登录</a>\n' +
+            '                <a class="zc" href="login">免费注册</a>';
+    }
+    else {
+        loginstatus.innerHTML = '<a class="dl" href="personal">个人中心</a>\n' +
+            '                <a class="zc" onclick="exit('+userId+')">退出</a>';
+    }
+
+    function exit(userId) {
+        var date=new Date();
+        date.setTime(date.getTime()-10000);
+        document.cookie="username="+userId+"; expires="+date.toGMTString();
+        location.href="index";
+    }
+
+    function search() {
+        var searchid = document.getElementById('st-top-search').value;
+        var obj = document.getElementById("selected"); //定位id
+        var index = obj.selectedIndex; // 选中索引
+        var text = obj.options[index].value; // 选中文本
+        if(text=='province') {
+            var url = "http://localhost:8888/listing_id";
+            $.ajax({
+                url: url,
+                type: "POST",
+                data: {province: searchid},
+                success: function (responseStr) {
+                    var data = JSON.parse(responseStr);
+                    if(data.result.length==0) {
+                        alert("搜索失败！");
+                        location.href="index";
+                    }
+                    else {
+                        var provinceid = data.result[0].provinceid;
+                        console.log(data);
+                        location.href="listing?id="+provinceid;
+                    }
+                },
+                error: function (responseStr) {
+
+                }
+            });
+        }
+        else if(text=='city') {
+            var url = "http://localhost:8888/listing_cityid";
+            $.ajax({
+                url: url,
+                type: "POST",
+                data: {city: searchid},
+                success: function (responseStr) {
+                    var data = JSON.parse(responseStr);
+                    console.log(data);
+                    if(data.result.length==0) {
+                        alert("搜索失败！");
+                        location.href="index";
+                    }
+                    else {
+                        var cityid = data.result[0].cityid;
+                        console.log(data);
+                        location.href="listing_city?id="+cityid;
+                    }
+                },
+                error: function (responseStr) {
+
+                }
+            });
+        }
+
+    }
+
+</script>

@@ -1,4 +1,4 @@
-function ProvinceDao() {
+function UserDao() {
     var connection;
     this.init = function () {
         var mysql = require('mysql');  //调用MySQL模块
@@ -15,8 +15,9 @@ function ProvinceDao() {
     }
 
     //查询
-    this.queryFarm= function (call) {
-        var sql = "select * from farm,picture,areas where picture.picId=farm.picId and areas.areaid=farm.areaId limit 0,6";
+    this.queryProvince = function (province,call) {
+        var sql = "select distinct provinces.provinceid,farmId,province,pic01,area from farm,provinces,cities,areas,picture where picture.picId=farm.picId and provinces.provinceid=cities.provinceid and cities.cityid=areas.cityid  and areas.areaid=farm.areaId and  provinces.province = '" +province+ "'";
+        // var sql = "select * from provinces where pcName LIKE "+'%province%+';
         connection.query(sql, function (err, result) {
             if (err) {
                 console.log('[INSERT ERROR] - ', err.message);
@@ -28,23 +29,8 @@ function ProvinceDao() {
         connection.end();
     }
 
-    //查询农家乐
-    this.provinceQueryFarm = function (id,call) {
-        var sql = "select distinct farmId,province,pic01,area from farm,provinces,cities,areas,picture where picture.picId=farm.picId and provinces.provinceid=cities.provinceid and cities.cityid=areas.cityid  and areas.areaid=farm.areaId and  provinces.provinceid="+id;
-        connection.query(sql, function (err, result) {
-            if (err) {
-                console.log('[INSERT ERROR] - ', err.message);
-                return;
-            }
-            call(result);
-        });
-        //连接结束
-        connection.end();
-    }
-
-    //查询农家乐
-    this.cityQueryFarm = function (id,call) {
-        var sql = "select distinct farmId,farmName,city,pic01,area from farm,cities,areas,picture where picture.picId=farm.picId and cities.cityid=areas.cityid  and areas.areaid=farm.areaId and  cities.cityid="+id;
+    this.queryCity = function (name,call) {
+        var sql = "select distinct cities.cityid,farmId,farmName,city,pic01,area from farm,cities,areas,picture where picture.picId=farm.picId and cities.cityid=areas.cityid  and areas.areaid=farm.areaId and  cities.city = '" +name+ "'";
         connection.query(sql, function (err, result) {
             if (err) {
                 console.log('[INSERT ERROR] - ', err.message);
@@ -57,4 +43,4 @@ function ProvinceDao() {
     }
 }
 
-module.exports = ProvinceDao;
+module.exports = UserDao;

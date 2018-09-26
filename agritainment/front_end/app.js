@@ -32,8 +32,20 @@ app.get('/index', indexController.index);
 //详情
 var itemsController = require('./controllers/ItemsController');
 app.get('/gallery', itemsController.gallery);
-// app.post('/galleryController', itemsController.galleryController);
 
+//个人中心
+var personController = require('./controllers/PersonController');
+app.get('/personal', personController.personal);
+app.post('/pass', personController.pass);
+
+//展示
+var listingController = require('./controllers/ListingController');
+app.get('/listing', listingController.listing);
+app.post('/listing_id', listingController.listing_id);
+
+var listingcityController = require('./controllers/ListingcityController');
+app.get('/listing_city', listingcityController.listing_city);
+app.post('/listing_cityid', listingcityController.listing_cityid);
 
 
 app.listen(8888);

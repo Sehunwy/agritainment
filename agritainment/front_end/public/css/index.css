@@ -183,6 +183,13 @@ body a {
     background: #00b7ee;
 }
 
+.sele {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -41px;
+    border: 0;
+}
+
 /*搜索框结束*/
 
 /*导航开始*/
@@ -549,7 +556,7 @@ body a {
 
 /*特色农家乐开始*/
 .heg {
-    height: 1860px;
+    height: 1000px;
 }
 
 .fh5co-section {

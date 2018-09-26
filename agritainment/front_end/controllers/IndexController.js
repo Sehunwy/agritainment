@@ -14,7 +14,6 @@ exports.index = function(req, res){
 
         provinceService.city(cites,function (city) {
             farmService.farm(function (farm) {
-                // console.log(farm);
                 res.render('index',{
                     province:result,
                     city:city,
@@ -23,13 +22,6 @@ exports.index = function(req, res){
             })
 
         });
-
-11
-        // var response = {
-        //     result:result
-        // };
-
-        // res.end(JSON.stringify(response));
     });
 
 };

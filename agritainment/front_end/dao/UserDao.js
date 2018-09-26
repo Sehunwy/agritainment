@@ -46,6 +46,26 @@ function UserDao() {
         //连接结束
         connection.end();
     }
+
+    //修改密码
+    this.update=function (username,userpass,call) {
+        //1,编写sql语句
+        var updateModSql = 'UPDATE pcuser SET pcPw = ? WHERE pcName = ?';
+
+        var updateModSql_Params = [userpass, username];
+        var isTrue = true ;
+        //2，更新操作
+        connection.query(updateModSql,updateModSql_Params,function (err, result) {
+            if(err){
+                console.log('[INSERT ERROR] - ',err.message);
+                isTrue = false;
+                // return;
+            }
+            call(result);
+        });
+        //3,连接结束
+        connection.end();
+    }
 }
 
 module.exports = UserDao;

@@ -16,7 +16,7 @@ function GalleryDao() {
 
     //查询
     this.queryFarm = function (id,call) {
-        var sql = "select * from farm,picture where farmId='" +id+ "' and picture.picId=farm.picId";
+        var sql = "select * from farm,picture,areas where farmId='" +id+ "' and picture.picId=farm.picId and farm.areaId=areas.areaid";
         connection.query(sql, function (err, result) {
             if (err) {
                 console.log('[INSERT ERROR] - ', err.message);
