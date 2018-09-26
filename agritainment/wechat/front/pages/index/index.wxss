@@ -1,41 +1,6 @@
-.exploreBox {
-  width: 750rpx;
-  height: 100rpx;
-  /* background: pink; */
-  position: fixed;
-  z-index: 11;
-  font-size: 12px;
-  color: lightgray;
-  text-align: center;
-  background-color: white;
-  /* opacity: 0.1; *//* display: flex; *//* align-items: center; */
-}
-
-.explore {
-  width: 680rpx;
-  background: #f7f7f4;
-  margin: 0 auto;
-  height: 70rpx;
-  margin-top: 15rpx;
-  border-radius: 10rpx;
-  line-height: 70rpx;
-  /* opacity: 0.4; *//* align-items: center; */
-}
-
-.expWords {
-  margin-left: 15rpx;
-}
-
-.clearPosition {
-  width: 750rpx;
-  height: 100rpx;
-  background-color: white;
-}
-
 .todayFood {
   width: 680rpx;
-  height: 860rpx;
-  /* background: green; */
+  height: 450rpx;
   display: flex;
   flex-direction: column;
   padding-top: 20rpx;
@@ -59,6 +24,17 @@
   color: #ffd800;
   font-size: 12px;
 }
+
+/* 轮播图 start */
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+/* 轮播图 end */
 
 .firstImage_nav {
   width: 680rpx;

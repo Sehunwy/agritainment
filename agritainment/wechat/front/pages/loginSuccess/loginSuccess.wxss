@@ -1,0 +1,255 @@
+/**index.wxss**/
+
+.loginPage{
+  width: 700rpx;
+  height: 1000rpx;
+  /* background-color: pink; */
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.userBox{
+  width: 700rpx;
+  height: 200rpx;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+}
+
+.userMsg {
+  width: 400rx;
+  height: 200rpx;
+  padding-top: 20rpx;
+  box-sizing: border-box;
+  margin-right: 40rpx;
+  font-size: 14px;
+display: flex;
+  flex-direction: column;
+  /* background-color: yellowgreen; */
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: black;
+}
+
+.userId{
+  font-size: 10px;
+  color: lightgray;
+  margin-top: 10rpx;
+}
+
+
+
+/* 选项切换 */
+.tab {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 20rpx 0;
+  color: #A8A8A8;
+}
+
+.topTabSwiper {
+  /* border-top: 1px solid #ccc; */
+  border-bottom: 1px solid #ccc;
+  zoom: 1;
+}
+
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.tabBorer {
+  border-bottom: 4px solid #FFF145;
+  color: black;
+  /* width: 140rpx; */
+  
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper_con {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 80rpx 0;
+}
+
+/* 选项切换 */
+.buildMenu{
+  width: 700rpx;
+  /* height: 200rx; */
+  display: block;
+  /* background-color: green; */
+  padding: 60rpx 0;
+  border-radius: 20rpx;
+  color: gray;
+  background-color: #F6F8F8;
+}
+
+/* pages/class/class.wxss */
+
+.box {
+  width: 720rpx;
+  height: 3000rpx;
+  /* background-color: green; */
+  margin: 15rpx auto;
+}
+
+/* 顶部搜索框 */
+
+.top_search {
+  display: flex;
+}
+
+.search {
+  /* 弹性布局 */
+  width: 600rpx;
+  height: 70rpx;
+  display: inline-block;
+  position: relative;
+  /* flex-direction: row; */
+}
+
+/* 搜索框 */
+
+.search_input {
+  width: 100%;
+  height: 60rpx;
+  border-radius: 10rpx;
+  font-size: 32rpx;
+  background-color: #f6f7f2;
+}
+
+.input_text {
+  font-size: 32rpx;
+  position: absolute;
+  left: 70rpx;
+  top: 10rpx;
+  z-index: 3;
+}
+
+/* 搜索图标 */
+
+.searchImg {
+  width: 35rpx;
+  height: 35rpx;
+  position: absolute;
+  top: 15rpx;
+  left: 20rpx;
+  z-index: 2;
+}
+
+/* 搜索框后面的内容 */
+
+.search_text {
+  width: 200rpx;
+  height: 60rpx;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+}
+
+/* 标签 */
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  white-space: nowrap;
+  padding: 30rpx 0;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+/* 标签名称 */
+
+.tag_name {
+  height: 20rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 32rpx;
+  padding: 20rpx 40rpx;
+  background-color: #fdf9d4;
+  margin-right: 20rpx;
+  border-radius: 20rpx;
+}
+
+/* 菜谱展示 */
+
+.Class_Menu {
+  display: flex;
+  flex-direction: row;
+  /* 是否换行 */
+  flex-wrap: wrap;
+}
+
+.Menu_item {
+  width: 340rpx;
+  height: 520rpx;
+  margin: 0 10rpx 50rpx;
+  /* background-color: red; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.Menu_img {
+  width: 100%;
+  height: 400rpx;
+  /* background-color: blue; */
+}
+
+/* 播放图标 */
+
+.Menu_play {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 30rpx;
+  right: 20rpx;
+}
+
+/* 喜欢图标 */
+
+.Menu_like {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  bottom: 136rpx;
+  right: 80rpx;
+}
+
+.Menu_likeNum {
+  position: absolute;
+  bottom: 127rpx;
+  right: 34rpx;
+  color: white;
+  font-size: 32rpx;
+}
+
+
+.Menu_info {
+  display: flex;
+  flex-direction: row;
+  /* 是否换行 */
+  flex-wrap: wrap;
+  font-size: 30rpx;
+  color: #969696;
+  width: 100%;
+  /* height: 100rpx; */
+}
