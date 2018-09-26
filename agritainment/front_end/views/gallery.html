@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+<link href="css/bootstrap_items.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style_items.css" type="text/css" rel="stylesheet" media="all">
+<!--web-font-->
+<link href='http://fonts.useso.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+<!--//web-font-->
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Excursion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="https://ajax.useso.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+</head>
+<body>
+	<!--navigation-->
+	<div class="top-nav">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left">
+						<li><a href="index">首页</a></li>
+						<li><a href="gallery.html" class="active">详情</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>	
+		</nav>		
+	</div>	
+	<!--navigation-->
+
+	<div class="gallery">
+		<div class="container">
+			<div class="tesimonial"><h3>展示</h3></div>
+			<div id="pic" class="gallry-info">
+				<div class="col-md-6 gallery-grids">
+					<a href=<%=result[0].pic01%> class="b-link-stripe b-animate-go  swipebox"  title="">
+						<img style="width: 543px;height: 344px"  src=<%=result[0].pic01%> class="img-responsive glry-img" alt="">
+						<div class="b-wrapper">
+							<span class="b-animate b-from-left    b-delay03 ">
+								<img class="img-responsive zoom-img img-circle" src="images/e.png" alt=""/>
+							</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6 gallery-grids">
+					<a href=<%=result[0].pic02%> class="b-link-stripe b-animate-go  swipebox"  title="">
+						<img style="width: 543px;height: 344px"  src=<%=result[0].pic02%> class="img-responsive glry-img" alt="">
+						<div class="b-wrapper">
+							<span class="b-animate b-from-left    b-delay03 ">
+								<img class="img-responsive zoom-img img-circle" src="images/e.png" alt=""/>
+							</span>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>	
+	</div>	
+	<link rel="stylesheet" href="css/swipebox.css">
+		<script src="js/jquery.swipebox.min.js"></script> 
+			<script type="text/javascript">
+				jQuery(function($) {
+					$(".swipebox").swipebox();
+				});
+			</script>
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-4 about">
+				<h3>关于我们</h3>
+				<p>名称：<%=result[0].farmName%></p>
+				<p>介绍：<%=result[0].longInfo%></p>
+				<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+			</div>
+			<div class="col-md-4 posts">
+				<h3>平均价格</h3>
+				<div class="media">
+					<div class="media-left">
+						<a href="singlepage.html">
+						  <img class="media-object thumbnail" style="width: 75px;height: 52px;" src=<%=result[0].pic03%> alt="">
+						</a>
+				    </div>
+					<div class="media-body">
+						<h4 class="media-heading"><a href="singlepage.html"><%=result[0].farmName%></a></h4>
+						<h5>￥<%=result[0].price%></h5>
+					</div>
+				</div>
+				<div class="media">
+					<div class="media-left">
+						<a href="singlepage.html">
+						  <img class="media-object thumbnail" style="width: 75px;height: 52px;" src=<%=result[0].pic04%> alt="">
+						</a>
+				    </div>
+					<div class="media-body">
+						<h4 class="media-heading"><a href="singlepage.html"><%=result[0].farmName%></a></h4>
+						<h5>￥<%=result[0].price%></h5>
+					</div>
+				</div>
+				<div class="media">
+					<div class="media-left">
+						<a href="singlepage.html">
+						  <img class="media-object thumbnail" style="width: 75px;height: 52px;" src=<%=result[0].pic05%> alt="">
+						</a>
+				    </div>
+					<div class="media-body">
+						<h4 class="media-heading"><a href="singlepage.html"><%=result[0].farmName%></a></h4>
+						<h5>￥<%=result[0].price%></h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 address">
+				<h3>我们的地址</h3>
+				<!--<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus,-->
+					<!--luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta </p>-->
+				<ul>
+					<li><span></span><%=result[0].area%></li>
+					<li><span class="ph-no"></span><%=result[0].tel%></li>
+					<li><span class="mail"></span><a href="#m"><%=result[0].mail%></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<div class="copy-right">
+		<div class="container">
+			<p>Copyright © 2018.特色农家乐 <a href="#" target="_blank" title="农家乐">农家乐</a> - Collect from <a href="#" title="农家乐" target="_blank">农家乐</a></p>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+				var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+				};
+				*/
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+<script>
+    var id=window.location.href.split("?")[1];
+</script>
+</html>
