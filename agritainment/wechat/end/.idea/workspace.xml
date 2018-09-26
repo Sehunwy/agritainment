@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d012ac07-6a0d-4346-adcb-80c485efd8c8" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="http.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/http.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-200">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <folding>
+                <element signature="e#759#1078#0" />
+                <element signature="e#1134#1856#0" />
+                <element signature="e#1904#2664#0" />
+                <element signature="e#2714#3476#0" />
+                <element signature="e#3521#4274#0" />
+                <element signature="e#4315#5069#0" />
+                <element signature="e#5114#5871#0" />
+                <element signature="e#5432#5867#0" />
+                <element signature="e#5917#6675#0" />
+                <element signature="e#6721#7480#0" />
+                <element signature="e#7558#7847#0" />
+                <element signature="e#7893#8216#0" />
+                <element signature="e#8330#8715#0" />
+                <element signature="e#8776#9176#0" />
+                <element signature="e#9227#9978#0" />
+                <element signature="e#10033#10344#0" />
+                <element signature="e#10393#10673#0" />
+                <element signature="e#10731#11065#0" />
+                <element signature="e#11129#11493#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BannerUtil.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/BannerUtil.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageUtil.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1950">
+              <caret line="177" column="5" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
+              <folding>
+                <element signature="e#572#873#0" />
+                <element signature="e#924#1222#0" />
+                <element signature="e#1277#1577#0" />
+                <element signature="e#1619#1974#0" />
+                <element signature="e#2013#2604#0" />
+                <element signature="e#2646#3097#0" />
+                <element signature="e#3140#3600#0" />
+                <element signature="e#3644#4102#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>all_food</find>
+      <find>queryallFood</find>
+      <find>insert</find>
+      <find>food_material</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/http.js" />
+        <option value="$PROJECT_DIR$/dao/ImageUtil.js" />
+        <option value="$PROJECT_DIR$/util/BannerUtil.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/http-errors/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/http-errors/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/http-errors/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/type-is/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/configstore/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cookie-parser/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cookie-parser/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cookie-parser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cos-nodejs-sdk-v5/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/crc/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/crypto-random-string/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dot-prop/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ejs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express-session/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/debug/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/finalhandler/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/on-finished/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/formidable/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/imurmurhash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-obj/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/make-dir/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/append-field/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/busboy/node_modules/dicer/node_modules/streamsearch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/busboy/node_modules/dicer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/busboy/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/busboy/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/concat-stream/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/concat-stream/node_modules/readable-stream/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/concat-stream/node_modules/readable-stream/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/concat-stream/node_modules/readable-stream/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/concat-stream/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/concat-stream/node_modules/typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/concat-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/on-finished/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/type-is/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/type-is/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/bignumber.js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/readable-stream/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/sqlstring/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/on-headers/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/random-bytes/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/uid-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/unique-string/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/write-file-atomic/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/xdg-basedir/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/xml2js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/xmlbuilder/package.json" />
+      <path value="$PROJECT_DIR$/public/js/libs/DataTables/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="156" />
+    <option name="y" value="5" />
+    <option name="width" value="1250" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="小程序-服务器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="小程序-服务器" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="小程序-服务器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="小程序-服务器" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="小程序-服务器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="小程序-服务器" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../JavaScript/expressTutorial" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\H5+CSS+JS学习\项目\wechat-Food-Delights(服务器)\util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="http.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="http.js" working-dir="$PROJECT_DIR$" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.http.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d012ac07-6a0d-4346-adcb-80c485efd8c8" name="Default" comment="" />
+      <created>1534837529673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534837529673</updated>
+      <workItem from="1534837531514" duration="21244000" />
+      <workItem from="1534930119536" duration="3536000" />
+      <workItem from="1534946764937" duration="6458000" />
+      <workItem from="1535072915350" duration="1354000" />
+      <workItem from="1535098186264" duration="604000" />
+      <workItem from="1535099560679" duration="13000" />
+      <workItem from="1535101447889" duration="4018000" />
+      <workItem from="1535368567713" duration="1833000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="56857000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5029762" side_tool="true" weight="0.24509804" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49702382" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6650">
+          <caret line="266" column="17" selection-start-line="266" selection-start-column="11" selection-end-line="266" selection-end-column="17" />
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/BannerUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="177" column="5" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/BannerUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/BannerUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/BannerUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3700">
+          <caret line="294" column="58" lean-forward="true" selection-start-line="294" selection-start-column="58" selection-end-line="294" selection-end-column="58" />
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3425">
+          <caret line="272" column="89" selection-start-line="272" selection-start-column="89" selection-end-line="272" selection-end-column="89" />
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="141" column="62" lean-forward="true" selection-start-line="141" selection-start-column="62" selection-end-line="141" selection-end-column="62" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/BannerUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3425">
+          <caret line="272" column="89" lean-forward="true" selection-start-line="272" selection-start-column="89" selection-end-line="272" selection-end-column="89" />
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="136" column="85" selection-start-line="136" selection-start-column="85" selection-end-line="136" selection-end-column="85" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01server/douban.js" />
+    <entry file="file://$PROJECT_DIR$/util/ImageUtil.js" />
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/BannerUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="247" column="9" selection-start-line="247" selection-start-column="2" selection-end-line="247" selection-end-column="9" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3425">
+          <caret line="272" column="89" selection-start-line="272" selection-start-column="89" selection-end-line="272" selection-end-column="89" />
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="141" column="62" lean-forward="true" selection-start-line="141" selection-start-column="62" selection-end-line="141" selection-end-column="62" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/BannerUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3425">
+          <caret line="272" column="89" lean-forward="true" selection-start-line="272" selection-start-column="89" selection-end-line="272" selection-end-column="89" />
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="136" column="85" selection-start-line="136" selection-start-column="85" selection-end-line="136" selection-end-column="85" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01server/douban.js" />
+    <entry file="file://$USER_HOME$/Desktop/wechat-Food-Delights/wechat-小程序/小程序-服务器/http.js" />
+    <entry file="file://$PROJECT_DIR$/util/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="86" selection-start-line="86" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="e#71#516#0" />
+            <element signature="e#571#1219#0" />
+            <element signature="e#1346#2140#0" />
+            <element signature="e#2202#2821#0" />
+            <element signature="e#2949#3539#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/ImageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="177" column="5" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
+          <folding>
+            <element signature="e#572#873#0" />
+            <element signature="e#924#1222#0" />
+            <element signature="e#1277#1577#0" />
+            <element signature="e#1619#1974#0" />
+            <element signature="e#2013#2604#0" />
+            <element signature="e#2646#3097#0" />
+            <element signature="e#3140#3600#0" />
+            <element signature="e#3644#4102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/BannerUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#759#1078#0" />
+            <element signature="e#1134#1856#0" />
+            <element signature="e#1904#2664#0" />
+            <element signature="e#2714#3476#0" />
+            <element signature="e#3521#4274#0" />
+            <element signature="e#4315#5069#0" />
+            <element signature="e#5114#5871#0" />
+            <element signature="e#5432#5867#0" />
+            <element signature="e#5917#6675#0" />
+            <element signature="e#6721#7480#0" />
+            <element signature="e#7558#7847#0" />
+            <element signature="e#7893#8216#0" />
+            <element signature="e#8330#8715#0" />
+            <element signature="e#8776#9176#0" />
+            <element signature="e#9227#9978#0" />
+            <element signature="e#10033#10344#0" />
+            <element signature="e#10393#10673#0" />
+            <element signature="e#10731#11065#0" />
+            <element signature="e#11129#11493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
