@@ -1,12 +1,55 @@
 {
   "pages":[
+    "pages/index/index",
     "pages/login/login",
-    "pages/index/index"
+    "pages/Menu/menu",
+    "pages/class/class",
+    "pages/show/show",
+    "pages/explore/explore",
+    "pages/classify/classify",
+    "pages/loginSuccess/loginSuccess"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#595959",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "#DFDFDF",
+    "list": [
+      {
+        "selectedIconPath": "imgs/mainPage_active.png",
+        "iconPath": "imgs/mainPage.png",
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "selectedIconPath": "imgs/type_active.png",
+        "iconPath": "imgs/type.png",
+        "pagePath": "pages/classify/classify",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "imgs/message_active.png",
+        "iconPath": "imgs/message.png",
+        "pagePath": "pages/index/index",
+        "text": "消息"
+      },
+      {
+        "selectedIconPath": "imgs/mine_active.png",
+        "iconPath": "imgs/mine.png",
+        "pagePath": "pages/loginSuccess/loginSuccess",
+        "text": "我"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "agritainment",
+    "navigationBarTextStyle": "black"
   }
 }

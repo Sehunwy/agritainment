@@ -1,4 +1,5 @@
-<!--index.wxml-->
+<!--pages/login/login.wxml-->
+
 <view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
@@ -7,7 +8,7 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-   <view class="usermotto">
-  <image class='login' src='{{loginPic}}'></image>
-  </view> 
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
 </view>
